@@ -266,7 +266,7 @@ model.summary()
 history1 = model.fit(X_train, y_train, 
                     batch_size = 16, 
                     verbose=1, 
-                    epochs=100, 
+                    epochs=20, 
                     validation_data=(X_test, y_test), 
                     shuffle=False)
 
@@ -285,7 +285,7 @@ history1 = model.fit(X_train, y_train,
 ##Standardscaler 
 #Using categorical crossentropy as loss: 0.677
 
-#model.save('models/satellite_standard_unet_100epochs_7May2021.hdf5')
+model.save('models/satellite_standard_unet_100epochs_7May2021.hdf5')
 ############################################################
 #TRY ANOTHE MODEL - WITH PRETRINED WEIGHTS
 #Resnet backbone
@@ -309,7 +309,7 @@ print(model_resnet_backbone.summary())
 history2=model_resnet_backbone.fit(X_train_prepr, 
           y_train,
           batch_size=16, 
-          epochs=100,
+          epochs=20,
           verbose=1,
           validation_data=(X_test_prepr, y_test))
 
