@@ -40,7 +40,7 @@ from tensorflow.keras.metrics import MeanIoU
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 scaler = MinMaxScaler()
 
-root_directory = 'Semantic segmentation dataset/'
+root_directory = os.environ['KAGGLE_CONFIG_DIR'] = "/content/gdrive/My Drive/SemanticSegmentation"
 
 patch_size = 256
 
@@ -266,7 +266,7 @@ model.summary()
 history1 = model.fit(X_train, y_train, 
                     batch_size = 16, 
                     verbose=1, 
-                    epochs=20, 
+                    epochs=12, 
                     validation_data=(X_test, y_test), 
                     shuffle=False)
 
