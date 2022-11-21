@@ -1,0 +1,378 @@
+{
+  "hyperparameters": [
+    {
+      "name": "c1_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c1_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 16
+    },
+    {
+      "name": "c1_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 16
+    },
+    {
+      "name": "c1_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    },
+    {
+      "name": "c2_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c2_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 32
+    },
+    {
+      "name": "c2_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 32
+    },
+    {
+      "name": "c2_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    },
+    {
+      "name": "c3_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c3_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 64
+    },
+    {
+      "name": "c3_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 64
+    },
+    {
+      "name": "c3_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    },
+    {
+      "name": "c4_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c4_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 128
+    },
+    {
+      "name": "c4_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 128
+    },
+    {
+      "name": "c4_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    },
+    {
+      "name": "c5_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c5_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 256
+    },
+    {
+      "name": "c5_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "default": 256
+    },
+    {
+      "name": "c5_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    },
+    {
+      "name": "c6_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c6_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "default": 128
+    },
+    {
+      "name": "c6_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "default": 128
+    },
+    {
+      "name": "c6_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    },
+    {
+      "name": "c7_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c7_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "default": 64
+    },
+    {
+      "name": "c7_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "default": 64
+    },
+    {
+      "name": "c7_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    },
+    {
+      "name": "c8_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c8_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "default": 32
+    },
+    {
+      "name": "c8_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "default": 32
+    },
+    {
+      "name": "c8_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    },
+    {
+      "name": "c9_dropout",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 0.3,
+      "default": 0.1
+    },
+    {
+      "name": "c9_filter_1",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "default": 16
+    },
+    {
+      "name": "c9_filter_2",
+      "type": "ordinal",
+      "sequence": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "default": 16
+    },
+    {
+      "name": "c9_k",
+      "type": "categorical",
+      "choices": [
+        "he_normal",
+        "he_uniform"
+      ],
+      "default": "he_normal",
+      "weights": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.0",
+  "json_format_version": 0.4
+}
