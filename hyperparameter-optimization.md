@@ -16,6 +16,6 @@ Other information we concluded is pictured below, which is our training v. valid
 Within our training v. validation graph we saw an optimized value of 0.23 and our SMAC Scores graph demonstrates the difference between our model pre-optimization vs. post-optimization (noted within the relationship of our plotted observed scores and number of iterations).
 
 ![ioo](https://github.com/dvw4/Project/blob/Milestone3/mile3/mil3.jpg)
-![ioo](https://github.com/dvw4/Project/blob/Milestone3/mile3/mil31.jpg)
+![ioro](https://github.com/dvw4/Project/blob/Milestone3/mile3/mile31.jpg)
 
 
